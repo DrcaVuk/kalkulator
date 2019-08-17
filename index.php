@@ -13,32 +13,45 @@
   </head>
   <body>
     <div class="container mt-5">
-        <div class="row">
-           <div class="col-6 offset-3 kalkulator sadow">
+        <div class="row d-flex justify-content-center">
+           <div class="w-50 kalkulator sadow">
 
-              <div class="row">
+              <div class="d-flex flex-wrap">
                 <div id="displey" class="col-10 offset-1 border"></div>
                 <!-- Nambers -->
-                 <div class="col-6"><input type="button" value="C"></div>
-                 <div class="col-3 offset-3"><input type="button" value="/"></div>
-                 <div class="col-3"><input type="button" value="1"></div>
-                 <div class="col-3"><input type="button" value="2"></div>
-                 <div class="col-3"><input type="button" value="3"></div>
-                 <div class="col-3"><input type="button" value="*"></div>
-                 <div class="col-3"><input type="button" value="4"></div>
-                 <div class="col-3"><input type="button" value="5"></div>
-                 <div class="col-3"><input type="button" value="6"></div>
-                 <div class="col-3"><input type="button" value="-"></div>
-                 <div class="col-3"><input type="button" value="7"></div>
-                 <div class="col-3"><input type="button" value="8"></div>
-                 <div class="col-3"><input type="button" value="9"></div>
-                 <div class="col-3"><input type="button" value="+"></div>
-                 <div class="col-3"><input type="button" value="0"></div>
-                 <div class="col-3"><input type="button" value="."></div>
-                 <div class="col-6"><input type="button" value="="></div>
+                <div class="d-flex flex-wrap flex-column w-100">
+                <div class="d-flex flex-wrap  justify-content-between">
+                  <div class="col-6"><input type="button" value="C"></div>
+                  <div class="col-3"><input type="button" value="/"></div>
+                 </div>
+                 <div class="d-flex flex-wrap">
+                  <div class="col-3"><input type="button" value="1"></div>
+                  <div class="col-3"><input type="button" value="2"></div>
+                  <div class="col-3"><input type="button" value="3"></div>
+                  <div class="col-3"><input type="button" value="*"></div>
+                </div>
+                <div class="d-flex flex-wrap">
+                  <div class="col-3"><input type="button" value="4"></div>
+                  <div class="col-3"><input type="button" value="5"></div>
+                  <div class="col-3"><input type="button" value="6"></div>
+                  <div class="col-3"><input type="button" value="-"></div>
+                </div>
+                 <div class="d-flex flex-wrap">
+                  <div class="col-3"><input type="button" value="7"></div>
+                  <div class="col-3"><input type="button" value="8"></div>
+                  <div class="col-3"><input type="button" value="9"></div>
+                  <div class="col-3"><input type="button" value="+"></div>
+                </div>
+                <div class="d-flex flex-wrap">
+                  <div class="col-3"><input type="button" value="0"></div>
+                  <div class="col-3"><input type="button" value="."></div>
+                  <div class="col-6"><input type="button" value="="></div>
+                </div>
+              </div>
+                
                 <!-- End Nambers -->
               </div>
-
+</div>
            </div>
         </div>
     </div>
@@ -52,5 +65,5 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<script></script>
+<script src="js/main.js"></script>
 </html>
