@@ -1,26 +1,6 @@
-html {
-    position: relative;
-    height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  top: 0;
-}
-.container {
-    flex: 1 0 auto;
-    width: 100%;
-    margin: auto;
-    margin-top: 60px;
-  }
-  
 .kalkulator {
-    padding:15px;  
+    padding:15px; 
+    color: #fff; 
     background-color: #a0a0a0;
     border-radius: 5px; 
 }
@@ -44,7 +24,7 @@ body {
     border: 2px solid #999999; 
     padding: 2px 12px;
     margin: 2px 0px;
-    width: 100%;
+    width: 120px;
 }
 
 .kalkulator input:active {
@@ -61,13 +41,5 @@ body {
     border: 2px solid #999999; 
     padding: 2px 12px;
     margin: 2px 0px;
-    width: 100%;
+    width: 264px;
 }
- @media only screen and (max-width: 768px) {
-    .col-3 {
-        padding: 0px;
-     }
-     .col-6 {
-        padding: 0px;
-     } 
- } 
